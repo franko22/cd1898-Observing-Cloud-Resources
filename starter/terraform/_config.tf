@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "udacity-course-ami-image"
+     bucket = "udacity-terraform-course-frank"
      key    = "terraform/terraform.tfstate"
      region = "us-east-2"
    }
